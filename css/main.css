@@ -1,0 +1,117 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #24353F;
+    width: 100%;
+    /* height: 100vh; */
+}
+.box-login{
+    width: 55%;
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+    text-align: center;
+    margin:50px auto 0;
+    padding: 40px 0px;
+}
+.box-login h1{
+    font-size: 42px;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 500;
+    line-height: 55px;
+    color: #17A2B8;
+    margin:0px 0px 8px
+}
+.box-login .form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.box-login .form input,
+.box-login .form button{
+    width: 90%;
+    background-color: transparent;
+    outline: none;
+    border: 0.5px solid #fff;
+    color: #fff;
+    border-radius: 4px;
+    padding: 10px 12px;
+    margin: 12px 0;
+    transition: .5s all;
+}
+.box-login .form input::placeholder{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #dacccc;
+}
+.box-login .form button{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    border: 0.5px solid #17A2B8;
+    color: #17A2B8;
+}
+.box-login .form button:hover{
+    background-color: #17A2B8;
+    color: #fff;
+}
+.box-login h2,
+.box-login h2 a{
+    font-size: 18px;
+    font-weight: 400;
+    color: #fff;
+    text-decoration: none;
+    margin:0px 0px 8px
+}
+.box-login h2 a:hover{
+    text-decoration: solid;
+}
+
+#requared ,#sucsess ,#incoorect {
+    font-size: 20px;
+    display: none;
+    color: #DC3543;
+}
+/* ============================================ welcome page ============================== */
+header{
+    width: 100%;
+    padding: 15px 0;
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+}
+header .head{
+    width: 75%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+header .head a{
+    color: #fff;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: 400;
+    font-family: 'Titillium Web', sans-serif;
+    line-height: 30px;
+    margin:0px 16px 0px 0px;
+}
+.cont{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cont .box{
+    width: 50%;
+    padding: 60px 20px;
+    text-align: center;
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+}
+.cont .box h2{
+    font-size: 30px;
+    font-weight: 400;
+    font-family: 'Titillium Web', sans-serif;
+    color: #17A2B8;
+    margin:0px 0px 8px
+}
